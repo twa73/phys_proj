@@ -6,4 +6,4 @@ The program plots the wavefunctions of the i-th and j-th state with time evoluti
 
 Syntax: a is the length of the well, and N = \[i,j] where i and j are quantum numbers.
 
-sample1.pdf is generated using squareWell(1,\[2 3]). This plots the first and second excited states, meaning a = 2 and b = 3.
+sample1.pdf is generated using squareWell(1,\[2 3]). This plots ,in a box of length 1, the first and second excited states, meaning a = 2 and b = 3.
