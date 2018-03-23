@@ -13,6 +13,7 @@ figure % draw in a new window
 t = 0;
 h = plot(x,pP,'LineWidth',2);
 hold;
+xlim([-a/2 a/2]) % correctly size the xaxis for the box.
 %p1 = plot(x,p(1,:));
 %p2 = plot(x,p(2,:));
 for i = 1:l
